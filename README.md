@@ -1,2 +1,2 @@
 # zju_data_structure
-recording my process of learing data structure and algorithms
+recording my process of learning data structure and algorithms
