@@ -11,3 +11,7 @@ add_executable(constexpr constexpr.cpp)
 add_executable(initializer_list initializer_list.cpp)
 
 add_executable(tuple tuple.cpp)
+
+add_executable(auto auto.cpp)
+
+add_executable(decltype decltype.cpp)
