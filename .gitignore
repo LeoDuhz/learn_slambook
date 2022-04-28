@@ -3,12 +3,15 @@
 .DS_Store
 */pangolin/
 */sophus/
-
+.vscode/
+*/build
+*/*/build
 # Prerequisites
 *.d
+Sophus/
 
 # Compiled Object files
-*.slo
+*.slo 
 *.lo
 *.o
 *.obj

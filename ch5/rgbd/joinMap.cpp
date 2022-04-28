@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
     vector<cv::Mat> colorImgs, depthImgs;    // 彩色图和深度图
     TrajectoryType poses;         // 相机位姿
 
-    ifstream fin("./pose.txt");
+    ifstream fin("/home/leodu/learn_slambook/ch5/rgbd/pose.txt");
     if (!fin) {
         cerr << "请在有pose.txt的目录下运行此程序" << endl;
         return 1;

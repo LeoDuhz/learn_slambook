@@ -6,7 +6,10 @@ find_package(Sophus REQUIRED)
 
 # Eigen
 include_directories("/usr/include/eigen3")
-add_executable(useSophus useSophus.cpp)
+add_executable(useSophus useSophus.cpp testSophus.cpp)
 target_link_libraries(useSophus Sophus::Sophus)
+
+add_executable(test testSophus.cpp)
+target_link_libraries(test Sophus::Sophus)
 
 add_subdirectory(example)
